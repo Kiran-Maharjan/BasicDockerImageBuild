@@ -1,0 +1,11 @@
+
+---- build docker image after navigating on project directory
+docker build -t test123-image:1.0 .
+--run docker container
+docker run test123image:1.0
+--list docker container currently running right now
+docker ps
+--list docker container all
+docker ps -a
+-- list logs of background run container
+docker logs containerId
